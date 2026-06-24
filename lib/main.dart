@@ -120,7 +120,7 @@ class _CounterScreenState extends State<CounterScreen> {
     });
 
     _savePersistedData();
-    HapticFeedback.lightCheck();
+    HapticFeedback.lightImpact();
 
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
